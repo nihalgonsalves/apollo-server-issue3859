@@ -1,0 +1,30 @@
+{
+  "name": "apollo-server-issue3859",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-p start:*",
+    "start:a": "node src/serviceA.js",
+    "start:b": "node src/serviceB.js",
+    "start:gateway": "node src/gateway.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihalgonsalves/apollo-server-issue3859.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/nihalgonsalves/apollo-server-issue3859/issues"
+  },
+  "homepage": "https://github.com/nihalgonsalves/apollo-server-issue3859#readme",
+  "dependencies": {
+    "@apollo/federation": "^0.13.2",
+    "@apollo/gateway": "^0.13.2",
+    "apollo-server": "^2.11.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
